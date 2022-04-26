@@ -1,0 +1,59 @@
+# Work 4-Patterens and 2-Sortings
+#Simple Number Triangle Pattern
+number = 6
+
+for n in range(number):
+
+    for i in range(n):
+
+        print(n, end=" ") # print number
+
+    # line after each row to display pattern correctly
+
+    print(" ")
+    
+#Invert Pyramid of Numbers
+
+number = 5
+
+key = 0
+
+for i in range(number, 0, -1):
+
+    key += 1
+
+    for j in range(1, i + 1):
+
+        print(key, end=" ")
+
+    print('\r')
+    
+#Half Pyramid Pattern of Numbers
+number = 5
+
+for i in range(1, number+1):
+
+    for j in range(1, i + 1):
+
+        print(j, end=' ')
+
+    print("")
+    
+#Inverted Pyramid of the same number
+number = 1
+
+n = number
+
+for i in range(number, 0, -1):
+
+    for j in range(0, i):
+
+        print(n, end=' ')
+
+    print("\r")
+
+#sorting questions
+
+l=[4,3,5,2,7,9]
+
+
